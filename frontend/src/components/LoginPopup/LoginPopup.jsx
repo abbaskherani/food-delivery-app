@@ -11,9 +11,9 @@ const LoginPopup = ({ setShowLogin }) => {
     const [currState, setCurrState] = useState("Sign Up");
 
     const [data, setData] = useState({
-        name: "",
-        email: "",
-        password: ""
+        name: "tester",
+        email: "testingpurpose1@gmail.com",
+        password: "testingmyapp@123"
     })
 
     const onChangeHandler = (event) => {
@@ -52,8 +52,8 @@ const LoginPopup = ({ setShowLogin }) => {
                 </div>
                 <div className="login-popup-inputs">
                     {currState === "Sign Up" ? <input name='name' onChange={onChangeHandler} value={data.name} type="text" placeholder='Your name' required /> : <></>}
-                    <input name='email' onChange={onChangeHandler} value={data.email} type="email" placeholder='Your email' />
-                    <input name='password' onChange={onChangeHandler} value={data.password} type="password" placeholder='Password' required />
+                    <input name='email' onChange={onChangeHandler} value='testingpurpose1@gmail.com' type="email" placeholder='Your email' />
+                    <input name='password' onChange={onChangeHandler} value='testingmyapp@123' type="password" placeholder='Password' required />
                 </div>
                 <button>{currState === "Login" ? "Login" : "Create account"}</button>
                 <div className="login-popup-condition">
