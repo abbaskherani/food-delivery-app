@@ -58,6 +58,11 @@ const StoreContextProvider = (props) => {
     }
 
     useEffect(() => {
+        /**
+         * Asynchronously loads food list and cart data
+         * @param {void} - This function doesn't take any parameters
+         * @returns {Promise<void>} A promise that resolves when the data is loaded
+         */
         async function loadData() {
             await fetchFoodList();
             if (localStorage.getItem("token")) {
