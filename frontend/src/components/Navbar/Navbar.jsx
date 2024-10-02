@@ -11,8 +11,8 @@ import { StoreContext } from '../../Context/StoreContext'
  * @param {Function} props.setShowLogin - Function to set the login modal visibility
  * @returns {JSX.Element} The rendered Navbar component
  */
-
-```const Navbar = ({ setShowLogin }) => {
+```
+const Navbar = ({ setShowLogin }) => {
 
   const [menu, setMenu] = useState("home");
   const { getTotalCartAmount, token ,setToken } = useContext(StoreContext);
