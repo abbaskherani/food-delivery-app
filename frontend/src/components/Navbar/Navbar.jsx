@@ -4,14 +4,14 @@ import { assets } from '../../assets/assets'
 import { Link, useNavigate } from 'react-router-dom'
 import { StoreContext } from '../../Context/StoreContext'
 
-```
+
 /**
  * Navbar component for the application
  * @param {Object} props - The component props
  * @param {Function} props.setShowLogin - Function to set the login modal visibility
  * @returns {JSX.Element} The rendered Navbar component
  */
-```
+
 const Navbar = ({ setShowLogin }) => {
 
   const [menu, setMenu] = useState("home");
