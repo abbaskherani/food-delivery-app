@@ -1,6 +1,10 @@
 import React from 'react'
 import './Header.css'
 
+/**
+ * Renders the header component of the food ordering application
+ * @returns {JSX.Element} A div containing the header content, including a title, description, and a button to view the menu
+ */
 const Header = () => {
     return (
         <div className='header'>
