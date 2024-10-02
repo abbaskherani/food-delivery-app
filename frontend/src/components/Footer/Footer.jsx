@@ -30,6 +30,7 @@ const Footer = () => {
                 <li>+1-212-456-7890</li>
                 <li>contact@tomato.com</li>
                 <li><a href="https://food-delivery-app-admin-8t1g.onrender.com">Admin Panel</a></li>
+                <li><a href="https://github.com/abbaskherani/food-delivery-app">Github Repo</a></li>
             </ul>
         </div>
       </div>
